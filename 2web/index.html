@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+  <div class="lll">
+
+    <input type="text" id="nameInput" placeholder="Имя" maxlength="20">
+    <input type="text" id="FameInput" placeholder="Фамилия" maxlength="20">
+    <input type="number" id="ageInput" placeholder="Возраст" >
+  
+
+     <input type="button" value="Поменяй цвет" onclick="colorb()" class="btninp">   
+     <button id="clear">почистить</button>
+     <button id="helloButton">Вывести</button>
+     <button onclick="almeg()">Вывести все  сообщения</button>
+
+     <button onclick="clls()">Отчистить localStorage</button>
+ 
+     
+
+
+
+
+    </div>
+
+    <div class="out">
+
+         <div id="output"></div>
+    
+
+     </div>
+
+
+    </main>
+    <button class="color" id="green" onclick="gr()"></button>
+    <button class="color" id="purp" onclick="pr()"></button>
+    <button class="color" id="yellow" onclick="ye()"></button>
+
+
+
+<div id="allmessage">
+
+</div>
+
+
+
+
+
+
+</body>
+<script src="js/js.js"></script>
+<script src="js/locstor.js"></script>
+<script src="js/focus.js"></script>
+<script src="js/color.js"></script>
+<script src="js/clear.js"></script>
+</html>
